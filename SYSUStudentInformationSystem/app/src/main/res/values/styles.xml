@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="myEditTextStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:textColor">@color/primary_black</item>
+    </style>
+
+    <style name="myTitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:textColor">@color/primary_black</item>
+    </style>
+
+    <style name="myRadioStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+
+    <style name="myButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:textColor">@color/primary_white</item>
+        <item name="android:background">@drawable/my_button</item>
+    </style>
+
+</resources>
